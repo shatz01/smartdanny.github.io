@@ -1,0 +1,14 @@
+body{
+	background red;
+	font-family: 'Barrio', cursive;
+}
+
+h1{
+	font-size: 48px;
+}
+
+img{
+	display: block;
+	height: 450px;
+	width: 450px;
+}
