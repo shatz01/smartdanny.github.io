@@ -1,0 +1,21 @@
+/*body{
+	font-family: 'Barrio', cursive;
+	background: pink;
+}
+
+h1{
+	font-size: 48px;
+}
+
+img{
+	display: block;
+	height: 450px;
+	width: 450px;
+}*/
+/* THIS IS OLD SHIT ^^ ---------------------------------------------- NEW SHIT DOWN HERE vv */
+
+.prof-box {
+	width: 400px;
+	height: 400px;
+	background: rgba(0,0,0,0.4);
+}
