@@ -1,21 +1,31 @@
-/*body{
-	font-family: 'Barrio', cursive;
-	background: pink;
-}
-
-h1{
-	font-size: 48px;
-}
-
-img{
-	display: block;
-	height: 450px;
-	width: 450px;
-}*/
-/* THIS IS OLD SHIT ^^ ---------------------------------------------- NEW SHIT DOWN HERE vv */
-
-.prof-box {
+.content {
 	width: 400px;
 	height: 400px;
 	background: rgba(0,0,0,0.4);
+	color: rgba(127,255,0,0.6);
+	padding: 50px;
+	margin: 100px auto;
+	text-align: center;
+}
+
+html {
+  background: url(../images/background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.profile_pic {
+	height: 150px;
+	/*width: 150px;*/
+	border-radius: 50%;
+	/*margin: 100px auto;*/
+	/*margin-left: auto;
+	margin-right: auto;
+	vertical-align: middle*/
+	/*text-align: center;
+	display: table-cell;
+	vertical-align: middle;*/
+	margin: 0 auto;
 }
