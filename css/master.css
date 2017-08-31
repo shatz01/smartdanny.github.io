@@ -10,11 +10,20 @@
 
 html {
   background: url(../images/background.jpg) no-repeat center center fixed;
-  -webkit-background-size: cover;
+  /*-webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;
+  background-size: cover;*/
+	width: auto ;
+	max-width: 100% ;
+	height: auto ;
 }
+
+/*img {
+  width: auto ;
+  max-width: 100% ;
+  height: auto ;
+} */
 
 .profile_pic {
 	height: 150px;
