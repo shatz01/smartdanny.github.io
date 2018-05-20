@@ -1,14 +1,23 @@
-body{
-	font-family: 'Barrio', cursive;
-	background: pink;
+body {
+  /* background-color: blue; */
+  font-family: 'Roboto Mono', monospace;
 }
 
-h1{
-	font-size: 48px;
+P.blocktext {
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60em
 }
 
-img{
-	display: block;
-	height: 1000px;
-	width: 450px;
+/* for bulleted list */
+li.shats {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 60em
+}
+
+.bigger {
+  font-size:400%;
 }
