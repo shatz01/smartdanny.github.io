@@ -21,3 +21,22 @@ li.shats {
 .bigger {
   font-size:400%;
 }
+
+
+
+body, html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  display: inline-flex;
+}
+
+.jumbotron {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 100%;
+  margin-bottom: 0;
+}
