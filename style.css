@@ -83,7 +83,7 @@ img.bg {
   display: inline-block;
   width: 200px;
   height: 200px;
-  transform: translate(700px, 650px);
+  /* transform: translate(700px, 650px); */
 }
 
 #budr {
