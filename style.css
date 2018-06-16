@@ -48,3 +48,32 @@ body {
   margin: auto;
   margin-top: 5%;
 }
+
+.trigger {
+  width: 200px;
+  height: 200px;
+  border: 20px solid #999;
+  background: #ddd;
+}
+
+.budr{
+  display: inline-block;
+  background: blue;
+  width: 200px;
+  height: 200px;
+  transform: translate(200px, 150px) rotate(20deg);
+  /* transition: transform 300ms ease-in-out  */
+}
+
+#budr {
+		-webkit-animation: rotation 2s infinite linear;
+}
+
+@-webkit-keyframes rotation {
+		from {
+				-webkit-transform: rotate(0deg);
+		}
+		to {
+				-webkit-transform: rotate(359deg);
+		}
+}
